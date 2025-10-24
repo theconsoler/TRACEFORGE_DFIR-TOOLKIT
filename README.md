@@ -42,3 +42,37 @@ Future phases will cover:
 ---
 
 ## 🗂️ Project Structure (planned)
+traceforge/
+├─ modules/
+├─ reports/
+├─ data/
+├─ samples/
+└─ docs/
+
+
+---
+
+## 📊 Phase 1 Deliverables
+- Project concept and objectives  
+- Tool architecture overview  
+- Initial planning diagram (see `/docs/Phase1_Planning.md`)  
+- Repository setup and documentation structure  
+
+---
+
+## 🧩 Next Steps
+1. Develop module skeletons (`memory.py`, `disk.py`, etc.).  
+2. Define CLI layout and command discovery.  
+3. Prepare Phase 2 documentation and upload the architecture diagram.
+
+---
+
+## 📜 License
+MIT License — free to use, modify, and distribute with attribution.
+
+---
+
+## 👤 Author
+**PIYUSH KUMAR SAHOO**  
+Cybersecurity Researcher & Student  
+
