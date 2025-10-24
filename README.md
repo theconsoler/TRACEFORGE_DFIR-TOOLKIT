@@ -42,14 +42,15 @@ Future phases will cover:
 ---
 
 ## 🗂️ Project Structure (planned)
-'''
+
+```
 traceforge/
 ├─ modules/
 ├─ reports/
 ├─ data/
 ├─ samples/
 └─ docs/
-'''
+```
 
 ---
 
