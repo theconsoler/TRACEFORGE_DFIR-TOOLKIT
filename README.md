@@ -4,7 +4,7 @@
 ---
 
 ## 📘 Overview
-TRACE FORGE is a modular **Digital Forensics and Incident Response (DFIR)** toolkit designed to simplify the process of analyzing multiple types of forensic evidence — including memory dumps, disk images, log files, and network captures — all under one unified interface.
+TRACE FORGE is a modular **Digital Forensics and Incident Response (DFIR)** toolkit designed to simplify the process of analyzing multiple types of forensic evidence including memory dumps, disk images, log files, and network captures in all under one unified interface.
 
 This project was built as part of my cybersecurity research to demonstrate an end-to-end incident response framework capable of rapid artifact collection, analysis, and case reporting.
 
