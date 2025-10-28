@@ -34,7 +34,7 @@ In this phase, I defined:
 - The initial folder structure and technology stack (Python 3, Volatility3, pytsk3, Scapy, SQLite).  
 - A high-level workflow diagram describing data flow between modules.
 
-![Phase 1 Diagram] ("C:/Users/ASUS/Downloads/RESEARCH PROJECT/Screenshot 2025-10-24 191120.png")
+![Phase 1 Diagram] (Phase1_diagram.png)
 
 ---
 
@@ -43,7 +43,7 @@ In this phase, I structured the entire toolkit by setting up its module placehol
 
 The focus of Phase 2 was on environment setup, CLI integration, and ensuring all dependencies were installed correctly before module implementation.
 
-![Phase 2 Architecture] ("C:/Users/ASUS/Downloads/RESEARCH PROJECT/FLOW DIAGRAM OF PHASE 2.drawio.png")
+![Phase 2 Architecture] (Phase2_diagram.png)
 
 **Key Achievements:**
 - Created the full directory hierarchy under `/traceforge/`.  
