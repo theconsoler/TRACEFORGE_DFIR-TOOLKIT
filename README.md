@@ -43,7 +43,7 @@ In this phase, I structured the entire toolkit by setting up its module placehol
 
 The focus of Phase 2 was on environment setup, CLI integration, and ensuring all dependencies were installed correctly before module implementation.
 
-![Phase 2 Architecture] (Phase2_diagram.png)
+![Phase 2 Architecture] ([Phase2_diagram.png](https://github.com/theconsoler/TRACEFORGE_DFIR-TOOLKIT/blob/ace1706d5730e76462e1672cd3aa22552adf329b/Phase2_diagram.png))
 
 **Key Achievements:**
 - Created the full directory hierarchy under `/traceforge/`.  
