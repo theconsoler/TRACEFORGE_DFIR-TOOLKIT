@@ -95,9 +95,35 @@ traceforge/
 - Workflow diagram  
 
 ---
+### **Phase 3 – Build-Up (Implementation and Testing)**
+In this phase, I implemented all the core functional modules and verified their performance under the unified CLI environment.  
+Each module was tested with sample data to ensure reliable evidence processing, metadata generation, and output consistency.
 
+The primary focus was completing the functional build and confirming each component produced correct, hashed, and timestamped results.
+
+**Key Achievements:**
+- Implemented all five forensic modules (`memory.py`, `disk.py`, `logs.py`, `network.py`, `report.py`)  
+- Integrated each module with the unified CLI (`cli.py`)  
+- Added SHA-256 evidence hashing and timestamp metadata for integrity verification  
+- Verified outputs across all modules using structured test cases  
+- Produced successful case reports and consistent logs  
+- Established a stable operational foundation for future optimization
+
+**Test Case Summary**
+
+| Module | Input | Expected Output | Result |
+|:--|:--|:--|:--|
+| Memory | Invalid image path | `[!] Memory image not found` | ✅ Passed |
+| Disk | Valid image | Timeline CSV generated | ✅ Passed |
+| Logs | Authentication log | Extracted failed logins | ✅ Passed |
+| Network | PCAP file | DNS/HTTP summary created | ✅ Passed |
+| Report | Combined evidence | JSON report & DB entry | ✅ Passed |
+
+**Outcome:**  
+Phase 3 marks the transformation of TRACE FORGE from a design prototype into a fully functional DFIR toolkit capable of producing verified forensic outputs through a unified, reliable interface.
+
+---
 ## 🧩 Next Steps
-- Phase 3 – Implementation & Testing of all modules  
 - Phase 4 – Optimization, plugin integration, and automation  
 
 ---
